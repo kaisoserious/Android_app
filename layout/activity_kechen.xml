@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00cccc"
+    tools:context=".kechen">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zym_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:text="="
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+                android:text="活动与课程"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100sp"
+                android:text="The sports genie"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/transparent"
+            android:text="--"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:text="+"
+            android:textColor="@android:color/background_light" />
+
+
+    </LinearLayout>
+    //上框
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="630dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/fenseyuan">
+        //粉色框
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="35dp"
+                        android:src="@drawable/chazhao"/>
+                    <EditText
+                        android:layout_width="250dp"
+                        android:layout_height="65dp"
+                        android:textSize="16sp"
+                        android:hint="搜索"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="搜索"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="10dp">
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="全国活动"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="相关运动活动推荐"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="300dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/background_light"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/hd1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="大学生运动会"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="大学生运动会旨在锻炼应届大学生的身体素质以及团队协作，在比赛中不断地提高自己以及掌握健康运动的新方式。" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="300dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/background_light"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/hd2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="绿藤市健美大赛"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="一起来展现自己的完美身段把！" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="300dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/background_light"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/hd3" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="团体操大赛"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="这是一场针对全年龄段的人群参与的活动，一起来比拼谁的团体操更好看" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="300dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/background_light"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/hd4" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="综合运动会"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="更全面，更丰富，涵盖了更多项目的综合性运动会" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="300dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/background_light"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/hd5" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="无氧运动会"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="本次运动会的项目皆为无氧运动，人人皆可参与" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="300dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/background_light"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/hd6" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="绕城马拉松"
+                                android:textColor="@android:color/background_dark"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="让我们一起奔跑，看看谁才是真正的耐力之王！" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="查看更多"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15dp">
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="课程"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="相关健身课程推荐"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="免费课程"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="25sp"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mf1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mf2"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mf3"/>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="查看更多"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="付费课程"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="25sp"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp"
+                    android:src="@drawable/ff1"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp"
+                    android:src="@drawable/ff2"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp"
+                    android:src="@drawable/ff3"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp"
+                    android:src="@drawable/ff4"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="查看更多"
+                    android:textSize="15sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-40dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/mubiao1"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/kctz_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/shangcheng"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/kctz_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/zhuyemian"/>
+
+
+        <Button
+            android:id="@+id/kctz_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pengyouquan"/>
+        <Button
+            android:id="@+id/kctz_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/wode"/>
+    </LinearLayout>
+
+</LinearLayout>

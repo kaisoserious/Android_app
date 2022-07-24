@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#cc9933"
+    tools:context=".chongwushangdian">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/cwshangcheng_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back"
+
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="5dp"
+                android:text="宠物商店"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100sp"
+                android:text="The sports genie"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+    //上框
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="630dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/zongse"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="450dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/beibaowai">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="服装商店"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="26sp"/>
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/beibaonei"
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="250dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/beibaowai"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="80dp"
+                                android:text="食物商店"
+                                android:textColor="@android:color/holo_orange_light"
+                                android:textSize="26sp" />
+
+                            <LinearLayout
+                                android:layout_width="250dp"
+                                android:layout_height="160dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/beibaonei"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="250dp"
+                                    android:layout_height="80dp"
+                                    android:layout_gravity="center">
+
+                                    <Button
+                                        android:id="@+id/cmlg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/caomei"
+                                        android:onClick="cmClick" />
+
+                                    <Button
+                                        android:id="@+id/ptdl_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/putao"
+                                        android:onClick="ptClick" />
+
+                                    <Button
+                                        android:id="@+id/xjlg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/xiangjiao"
+                                        android:onClick="xjClick" />
+
+                                    <Button
+                                        android:id="@+id/mgdl_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/mogu"
+                                        android:onClick="mgClick" />
+
+                                    <Button
+                                        android:id="@+id/ytlg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/yintao"
+                                        android:onClick="ytClick" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="250dp"
+                                    android:layout_height="80dp"
+                                    android:layout_gravity="center">
+
+                                    <Button
+                                        android:id="@+id/jdlg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/jidan"
+                                        android:onClick="jdClick" />
+
+                                    <Button
+                                        android:id="@+id/bclg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/baicai"
+                                        android:onClick="bcClick" />
+
+                                    <Button
+                                        android:id="@+id/lblg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/huluobo"
+                                        android:onClick="lbClick" />
+
+                                    <Button
+                                        android:id="@+id/yclg_1"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/yangcong"
+                                        android:onClick="ycClick" />
+
+                                    <Button
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:background="@android:color/transparent"
+                                        android:text="..."
+                                        android:textColor="@android:color/background_light" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/xiongmaobi"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="熊猫币"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text=":300 枚"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/zongse"
+                    android:text="熊猫币兑换"
+                    android:textColor="@android:color/background_light"
+                    android:onClick="dhClick"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/zongse"
+                    android:text="兑换规则"
+                    android:textColor="@android:color/background_light"
+                    android:onClick="gzClick"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
